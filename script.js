@@ -361,7 +361,7 @@
 	}
 ]);
 
-  var MaxCoin = MaxCoinContract.at("0xdb787a2dafc6c958d499860204ddbb9eb4dceabf");
+  var MaxCoin = MaxCoinContract.at("0x543224a464339b6d2118280b56b5cef77e1c3b5b");
   var currentBalance;
   var busy = false;
 
