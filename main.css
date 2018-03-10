@@ -1,0 +1,52 @@
+body html {
+  margin: 0;
+  padding: 0;
+}
+
+.background-img {
+  background-image: url(public/img/dollar-background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+
+  height: 100vh;
+  width: 100%;
+}
+
+.title-div {
+  margin-top: 100px;
+  font-family: sans-serif;
+  color: #fff6aa;
+  text-shadow: 1px 1px #000000;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.description {
+  font-family: sans-serif;
+  color: #262c6a;
+  text-shadow: .25px .25px #FFFFFF;
+
+}
+
+.description-text {
+  font-size: 20px;
+}
+
+div {
+  padding: 5px;
+}
+
+#loader {
+  display:none;
+}
+
+#balance {
+  font-size: 20px;
+}
+
+#result {
+  font-size: 20px;
+}

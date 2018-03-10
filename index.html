@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coin Flip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- edit this in the future -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- ^^^^^ -->
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+  <div class="background-img">
+    <div class="container text-center">
+      <div class="row text-center title-div">
+        <h1 class="title">Double or Nothing!</h1>
+      </div>
+      <div class="row text-center description">
+        <p class="description-text">
+          This DApp requires MetaMask and an Ethereum Wallet to use. To play,
+          click on the registerID button to receive 100 MaxCoins to gamble with.
+          After you're registered, go ahead and play!
+      </p>
+    </div>
+
+    <div class="row">
+      <button id="register-button">Register Public ID</button>
+    </div>
+    <div class="row">
+    <label for="wager" class="control-label text-center">Enter Your Wager</label>
+  </div>
+  <div class="row">
+    <input id="wager" type="text">
+  </div>
+  <div class="row">
+    <label for="balance" class="control-label">Current Balance</label>
+  </div>
+    <div class="row">
+    <p id=balance class="text-center"></p>
+  </div>
+  <div class="row">
+    <button id="flip-button">Flip a Coin!</button>
+  </div>
+
+  <div class="row">
+    <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+    <p id="result"></p>
+  </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
